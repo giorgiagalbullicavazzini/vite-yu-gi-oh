@@ -4,3 +4,16 @@
 @use './partials/reset' as *;
 @use './partials/typography' as *;
 @use './partials/variables' as *;
+
+// Container
+.container {
+    margin: auto;
+    max-width: 125rem;
+    padding: 1.25rem 2.1875rem;
+}
+
+// Common
+img {
+    display: block;
+    width: 100%;
+}
