@@ -6,10 +6,27 @@
 @use './partials/variables' as *;
 
 // Container
+body {
+    background-color: $primary-color;
+}
+
 .container {
-    margin: auto;
     max-width: 125rem;
     padding: 1.25rem 2.1875rem;
+}
+
+.small-container {
+    max-width: 105.3125rem;
+}
+
+.smaller-container {
+    max-width: 96.25rem;
+}
+
+.container,
+.small-container,
+.smaller-container {
+    margin: auto;
 }
 
 // Common
